@@ -17,6 +17,12 @@ public class Principal {
        
        Coche coche1 = new Coche();
        
+       coche1.acelerar();
+       coche1.acelerar();
+       coche1.frenar();
+       coche1.apagar();
+
+
         
         
         
