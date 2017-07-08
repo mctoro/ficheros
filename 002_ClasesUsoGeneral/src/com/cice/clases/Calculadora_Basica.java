@@ -24,6 +24,11 @@ public class Calculadora_Basica {
     //3º Restar
     //4º Multiplicar
     //5º Dividir
+    int a;
+    int b;
+    
+    
+    
     
 public void MostrarMenu(){
 
@@ -63,56 +68,30 @@ public void MostrarMenu(){
         
     }while(opcion!=0);
     
-    
-}    
-public void sumar(){
-    
-    int a;
-    int b;
-    
-    System.out.print("Introduce el primer numero: ");
+   
+}   
+public void recogidaDatos(){
+    System.out.println("Introduce el primer numero: ");
     a = sc.nextInt();
-    System.out.print("Introduce el segundo numero: ");    
-    b = sc.nextInt();    
+    System.out.println("Introduce el segundo numero: ");
+    b = sc.nextInt();
+} 
+public void sumar(){
+ recogidaDatos();
     System.out.println("La suma de ambos numeros es: " + (a+b));
-
 }
 
 public void restar(){
-    
-    int a;
-    int b;
-    
-    System.out.print("Introduce el primer numero: ");    
-    a = sc.nextInt();    
-    System.out.print("Introduce el segundo numero: ");    
-    b = sc.nextInt();    
+recogidaDatos();
     System.out.println("La resta de ambos numeros es: " + (a-b));
-
 }
 public void multiplicar(){
-    
-    int a;
-    int b;
-    
-    System.out.print("Introduce el primer numero: ");    
-    a = sc.nextInt();    
-    System.out.print("Introduce el segundo numero: ");    
-    b = sc.nextInt();    
+recogidaDatos();
     System.out.println("La multiplicación de ambos numeros es: " + (a*b));
-
 }
 public void dividir(){
-    
-    double a;
-    double b;
-    
-    System.out.print("Introduce el primer numero: ");    
-    a = sc.nextInt();    
-    System.out.print("Introduce el segundo numero: ");    
-    b = sc.nextInt();
+recogidaDatos();
     System.out.println("La división de ambos numeros es: " + (a/b));
-
 }
 
     
