@@ -5,6 +5,7 @@
  */
 package com.cice.principal;
 
+import com.cice.clases.Calculadora_Basica;
 import com.cice.clases.Personaje;
 
 /**
@@ -17,7 +18,7 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Personaje prota = new Personaje();
+    /*    Personaje prota = new Personaje();
         
         String nombre = "Miguel";
         
@@ -30,6 +31,9 @@ public class Principal {
         prota.saltar();
         prota.detenerse();
         
+    */    
+        Calculadora_Basica calc = new Calculadora_Basica ();
+        calc.MostrarMenu();
         
     }
     
