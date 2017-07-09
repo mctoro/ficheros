@@ -24,7 +24,7 @@ public class Opción2 {
         
         //variables a utilizar
         Scanner sc = new Scanner(System.in);
-        int opcion = 0;
+        int opcion;
         //1ª opción sería crear una persona vacía (sin datos) y añair sus valores
         Persona usuario = new Persona();
         
