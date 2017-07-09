@@ -70,26 +70,26 @@ public void MostrarMenu(){
     
    
 }   
-public void recogidaDatos(){
+private void recogidaDatos(){
     System.out.println("Introduce el primer numero: ");
     a = sc.nextInt();
     System.out.println("Introduce el segundo numero: ");
     b = sc.nextInt();
 } 
-public void sumar(){
+private void sumar(){
  recogidaDatos();
     System.out.println("La suma de ambos numeros es: " + (a+b));
 }
 
-public void restar(){
+private void restar(){
 recogidaDatos();
     System.out.println("La resta de ambos numeros es: " + (a-b));
 }
-public void multiplicar(){
+private void multiplicar(){
 recogidaDatos();
     System.out.println("La multiplicación de ambos numeros es: " + (a*b));
 }
-public void dividir(){
+private void dividir(){
 recogidaDatos();
     System.out.println("La división de ambos numeros es: " + (a/b));
 }

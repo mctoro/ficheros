@@ -34,7 +34,7 @@ public class Principal {
     */    
         Calculadora_Basica calc = new Calculadora_Basica ();
         calc.MostrarMenu();
-        
+
     }
     
 }
