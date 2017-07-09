@@ -12,12 +12,41 @@ package com.cice.clases;
 public class Coche {
     // atributos locales de la clase (caracteristicas de la clase
     
-    String matricula;
-    String modelo;
-    int potencia;
-    String color;
+    private String matricula;
+    private String modelo;
+    private int potencia;
+    private String color;
+    
+    //Constructores
+    public Coche (){
+    matricula = "0000asf";
+    modelo = "Desconocido";
+    potencia = 0;
+    color = "desconocido";
+    }
+    //no podemos ni la cantidad ni tipo de entrada a la hora de repetir un contructor.
+    //aquí hemos creado dos constructores "Coche" pero son diferentes.
+    public Coche(String mat, String mod, int pot, String col){
+    matricula = mat;
+    modelo = mod;
+    potencia = pot;
+    color = col;
+    }
     
     // metodos
+    //SETTERS
+    public void setMatricula(String mat){
+    matricula = mat;
+    }
+    public void setModelo(String mod){
+    modelo = mod;
+    }    
+    public void setPotencia (int pot){
+    potencia = pot;
+    }
+    public void setColor (String col){
+    color = col;
+    }    
     public void pintarInformacion(){
         
         
